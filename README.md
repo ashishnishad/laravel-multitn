@@ -1,4 +1,4 @@
-## Laravel-8 Calling digisigner.com APIs Using cURL
+## Laravel-8 Multi-tenancy with multi DB
 
 -----
 
@@ -7,13 +7,13 @@
 Clone this project to your local computer.
 
 ```ps
-git clone https://github.com/ashishnishad/laravel8-digisigner.git
+git clone https://github.com/ashishnishad/laravel-multitn.git
 ```
 
 Navigate to the project folder.
 
 ```ps
-cd laravel8-digisigner
+cd laravel-multitn
 ```
 
 create new .env file and edit database credentials there.
@@ -39,17 +39,13 @@ php artisan migrate
 ```
 
 ```ps
-php artisan passport:install
-```
-
-```ps
 php artisan serve
 ```
 
 ```ps
-open url http://127.0.0.1:8000/
+open url http://localhost:8000/
 ```
 
 ```ps
-Run Postman Collection To Run Rest Api
+For other steps refer to attached video
 ```
